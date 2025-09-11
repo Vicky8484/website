@@ -1,0 +1,136 @@
+/*************** Reset ALDRIG ÆNDRE DET HER *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+/***********Billeder**************/
+img {
+  padding-block: 0.5rem;
+  border-radius: 25px;
+}
+/*****************web-fonte***************/
+@font-face {
+  font-family: "rajdhanimedium";
+  src: url("rajdhani-medium-webfont.woff2") format("woff2"),
+    url("rajdhani-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rajdhanisemibold";
+  src: url("rajdhani-semibold-webfont.woff2") format("woff2"),
+    url("rajdhani-semibold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*************** margin og padding ********************/
+p {
+  margin-block: 0.8rem;
+  font-size: 2rem;
+}
+.galleri {
+  margin-bottom: 1rem;
+}
+.køling {
+  margin-bottom: 0.7rem;
+}
+.udseende {
+  margin-bottom: 0rem;
+}
+/**************bagrrundfarve************/
+body {
+  background-color: beige;
+}
+main {
+  padding: 15px;
+  background-color: beige;
+}
+header {
+  padding: 15px;
+  background-color: beige;
+}
+footer {
+  font-family: "Overlock", sans-serif;
+  font-weight: 600;
+  background-color: beige;
+  color: rgb(209, 94, 117);
+  padding: 15px;
+  font-size: 1.2rem;
+}
+/************** font ***************/
+
+h1 {
+  font-family: "Averia Serif Libre", serif;
+  letter-spacing: 0cm;
+  color: rgb(185, 84, 104);
+  margin-bottom: 1rem;
+}
+h2 {
+  font-family: "Mitr", sans-serif;
+  font-weight: 500;
+  color: rgb(209, 94, 117);
+  margin-bottom: 0rem;
+}
+h3 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  color: rgb(209, 94, 117);
+  margin-bottom: 0rem;
+}
+dl {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(209, 94, 117);
+  font-size: 18px;
+  border-width: 10px;
+  border-radius: 25px;
+  padding-bottom: 1rem;
+}
+dt {
+  background-color: bisque;
+}
+dd {
+  background-color: rgb(239, 200, 151);
+}
+
+p {
+  margin-top: 0rem;
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(249, 111, 139);
+  font-size: 20px;
+}
+nav {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(209, 94, 117);
+}
+a {
+  font-family: "Overlock", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(209, 94, 117);
+}
+/*********logo og menu********/
+.logo img {
+  width: 50px;
+  height: auto;
+}
+
+.min_computer {
+  filter: grayscale(50%);
+  filter: saturate(100%);
+  filter: contrast(70%);
+  filter: brightness(70%);
+}
